@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Project-6.md",
+                "file": "Docs/Document-5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project-6"
+              "title": "Document-5"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "c295368336e06b6e",
   "lastOpenFiles": [
-    "Projects/Project-5.md",
     "Projects/Project-6.md",
+    "Docs/Document-5.md",
+    "Projects/Project-5.md",
     "Projects/Project-4.md",
     "Projects/Project-3.md",
     "Docs/Document-4.md",
@@ -214,7 +215,6 @@
     "Projects/Project-Test-1.md",
     "Docs/Test-Doc-1.md",
     "Blog/2025-03-30-test-post.md",
-    "Blog/2023-03-28-First-Blog-Post.md",
     "Blog/2025-03-28-tit3/28",
     "Blog/2025-03-28-tit3",
     "Templates",

@@ -1,43 +1,61 @@
-# Site Metadata
-baseURL: http://localhost:1313/
+baseurl: https://benotdeceived.org/Hugo-Blog/
+title: Mainroad
 languageCode: en-us
-title: AI Hugo Site
-
+paginate: '10'
 theme: mainroad
 
-menus:
-  main:
-  - name: Home 
-    identifier: home
-    pageRef: /
-    url: /
-    weight: 10
-  - name: Blog
-    identifier: blog 
-    pageRef: /Blog
-    url: /blog
-    weight: 20
-  - name: Docs 
-    identifier: docs 
-    pageRef: /Docs 
-    url: /docs
-    weight: 30
-  - name: Projects 
-    identifier: projects 
-    pageRef: /Projects 
-    url: /projects
-    weight: 40
-  footer:
-  - name: Terms
-    pageRef: /terms
-    weight: 10
-  - name: Privacy 
-    pageRef: /privacy 
-    weight: 20  
+Author:
+  name: John Doe
+  bio: >-
+    John Doe's true identity is unknown. Maybe he is a successful blogger or
+    writer. Nobody knows it.
 
-taxonomies:
-  category: categories 
-  tag: tags
-  series: series
-  book: books
-  chapter: chapters
+Params:
+  description: John Doe's Personal blog about everything
+  copyright: John Doe
+  opengraph: true
+  schema: true
+  twitter_cards: true
+  readmore: true
+  authorbox: false
+  toc: true
+  pager: true
+  dateformat: '2006-01-02'
+  googleFontsLink: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700'
+  customCSS:
+    - css/custom.css
+  customJS:
+    - js/custom.js
+  subtitle: 'subtitle #2'
+  highlightColor: '#8A5CF5'
+  style:
+    vars:
+      highlightColor: '#8A5CF5'
+      fontFamilyPrimary: '''Open Sans'', Helvetica, Arial, sans-serif'
+      fontFamilySecondary: >-
+        SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier
+        New', monospace
+
+  sidebar:
+    home: right
+    list: left
+    single: false
+    widgets:
+      - search
+      - recent
+      - categories
+      - taglist
+      - social
+      - languages
+  widgets:
+    recent_num: 5
+    categories_counter: false
+    tags_counter: false
+    social:
+      email: agedlace@gmail.com
+    search:
+      cached: false
+      url: 'https://google.com/search'
+      input:
+        name: sitesearch
+        pre: ''

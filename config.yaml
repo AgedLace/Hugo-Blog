@@ -1,21 +1,19 @@
 baseurl: https://benotdeceived.org/Hugo-Blog/
 title: Mainroad
 languageCode: en-us
-paginate: '10'
+pagination: 
+  pagerSize: '10'
 theme: mainroad
 
 Author:
-  name: John Doe
+  name: AgedLace
   bio: >-
-    John Doe's true identity is unknown. Maybe he is a successful blogger or
+    AgedLace's true identity is unknown. Maybe he is a successful blogger or
     writer. Nobody knows it.
 
 Params:
-  description: John Doe's Personal blog about everything
-  copyright: John Doe
-  opengraph: true
-  schema: true
-  twitter_cards: true
+  description: AgedLace's Personal blog about everything
+  copyright: AgedLace
   readmore: true
   authorbox: false
   toc: true

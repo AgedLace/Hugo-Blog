@@ -1,0 +1,6 @@
+{
+  "folder": "Blog",
+  "format": "YYYY-MM-DD-title",
+  "template": "Templates/post.md",
+  "autorun": false
+}

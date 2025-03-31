@@ -1,0 +1,43 @@
+# Site Metadata
+baseURL: http://localhost:1313/
+languageCode: en-us
+title: AI Hugo Site
+
+theme: mainroad
+
+menus:
+  main:
+  - name: Home 
+    identifier: home
+    pageRef: /
+    url: /
+    weight: 10
+  - name: Blog
+    identifier: blog 
+    pageRef: /Blog
+    url: /blog
+    weight: 20
+  - name: Docs 
+    identifier: docs 
+    pageRef: /Docs 
+    url: /docs
+    weight: 30
+  - name: Projects 
+    identifier: projects 
+    pageRef: /Projects 
+    url: /projects
+    weight: 40
+  footer:
+  - name: Terms
+    pageRef: /terms
+    weight: 10
+  - name: Privacy 
+    pageRef: /privacy 
+    weight: 20  
+
+taxonomies:
+  category: categories 
+  tag: tags
+  series: series
+  book: books
+  chapter: chapters

@@ -1,0 +1,7 @@
+/public
+/resources
+.DS_Store
+/themes/**/examplesite/
+/archetypes/**
+/Clippings
+/Drafts

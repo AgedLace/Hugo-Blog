@@ -1,0 +1,14 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/",
+  "promptDelete": false,
+  "strictLineBreaks": true,
+  "tabSize": 2,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "Templates/",
+    "Clippings/",
+    "Drafts/"
+  ]
+}
